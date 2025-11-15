@@ -6,6 +6,9 @@ Websites to crawl:
 - https://books.toscrape.com/
 
 **NOTE**: Prices and ratings of books were randomly assigned and have no real meaning.
+
+Data crawled is in the `data` folder, while log files are in the `logs` folder.
+
 ## Quotes
 
 Steps to collect quotes:
