@@ -1,3 +1,4 @@
+# Selenium Demo
 
 A demo application using Selenium to crawl data from a website. This demo is done in Brave Browser, by using Chromedriver with Brave binary.
 
