@@ -1,1 +1,4 @@
 **/.DS_Store
+.env
+example*
+__pycache__

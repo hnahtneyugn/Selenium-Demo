@@ -226,3 +226,66 @@ This is the result:
 
 | ![](./images/img2.png) | ![](./images/img3.png) | ![](./images/img4.png) | ![](./images/img9.png) | ![](./images/img10.png) |
 | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- |
+
+
+## Automated Scraping with Selenium, Airflow and Docker
+
+In this part, we automate the process of scraping contents from a website with Selenium by using Airflow inside a Docker environment. The URL to crawl this time is [here](https://books.toscrape.com/catalogue/category/books/humor_30/index.html)
+
+We use a `docker-compose.yml` file and a custom `Dockerfile` to build a custom image instead of using the official Airflow 3.1.3 image. The custom image will contain:
+- Airflow 3.1.3
+- Selenium, Pendulum (via PyPI)
+- Brave Browser version 142.1.84.141
+- Chromedriver version 142.0.7444.175
+
+Since this is running in MacOS, we've added `platform: linux/amd64` for all Airflow containers, Postgres and Redis to enable x86_64 emulation using Rosetta. Remove them if you're using Linux / Windows.
+
+To reproduce the results in Docker, navigate to the folder containing `docker-compose.yml` and do the following:
+
+1. Create folders to mount from host to containers
+```sh
+mkdir -p ./dags ./logs ./plugins ./config
+```
+
+2. Extract user id to use within containers. Remember to put `.env` inside `.gitignore`
+```sh
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+```
+
+3. Build images from `Dockerfile`
+```sh
+docker compose build
+```
+
+4. Initialize and migrate the database.
+```sh
+docker compose up airflow-init
+```
+
+5. Start all services
+```sh
+docker compose up -d
+```
+
+Now you can access `localhost:8080`, log in with username `airflow` and password `airflow`. Click on Dags in the left-side menu, find the DAG named `automated_book_scraper`. In the top right corner, click Trigger and wait for it to be success.
+
+![](./images/airflow.png)
+
+In this demo, the cron tab has been set like this:
+```python
+with DAG(
+    dag_id = "automated_book_scraper",
+    description = "Automated scraper demo",
+    schedule="*/5 16 * * *",
+    start_date= pendulum.datetime(2025, 11, 19, tz='Asia/Ho_Chi_Minh'),
+    end_date= pendulum.datetime(2025, 11, 20, tz='Asia/Ho_Chi_Minh'),
+    catchup=False) as dag:
+    task_1 = PythonOperator(task_id="book_scraper", python_callable=scrape)
+```
+
+It ran from 16:18 to 16:55 in 19/11/2025, results for each 5-minute interval are inside `logs` folder. The data is in `data/automated_scraping` folder, with timestamps in each file.
+
+Data in 16:20 and 16:25 should be similar:
+![](./images/similar.png)
+
+

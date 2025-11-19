@@ -1,0 +1,11 @@
+{"timestamp":"2025-11-19T09:55:01.710120Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-19T09:55:01.711233Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/books_automated.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-19T09:55:01.857572Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:55:01.857965Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:55:01.858219Z","level":"info","event":"Current task name:book_scraper","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:55:01.858382Z","level":"info","event":"Dag name:automated_book_scraper","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:55:35.594697Z","level":"info","event":"Saved 10 books to /opt/airflow/data/automated_scraping/20251119_165501_books.json","logger":"root","filename":"books_automated.py","lineno":99}
+{"timestamp":"2025-11-19T09:55:35.601665Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-19T09:55:35.673985Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:55:35.675777Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:55:35.676625Z","level":"info","event":"Task operator:<Task(PythonOperator): book_scraper>","logger":"task.stdout"}

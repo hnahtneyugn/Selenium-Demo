@@ -1,0 +1,38 @@
+{"timestamp":"2025-11-19T09:14:13.290530Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-19T09:14:13.291526Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/books_automated.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-19T09:14:13.381201Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:13.381453Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:13.381713Z","level":"info","event":"Current task name:book_scraper","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:13.381857Z","level":"info","event":"Dag name:automated_book_scraper","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.469240Z","level":"error","event":"Task failed with exception","logger":"task","filename":"task_runner.py","lineno":1002,"error_detail":[{"exc_type":"StaleElementReferenceException","exc_value":"Message: stale element reference: stale element not found\n  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n#0 0x555555fca4ca <unknown>\n#1 0x555555a18e4b <unknown>\n#2 0x555555a2c71b <unknown>\n#3 0x555555a2b4ec <unknown>\n#4 0x555555a20628 <unknown>\n#5 0x555555a1e85f <unknown>\n#6 0x555555a22473 <unknown>\n#7 0x555555a22543 <unknown>\n#8 0x555555a6b23f <unknown>\n#9 0x555555a6ba51 <unknown>\n#10 0x555555a5f5f6 <unknown>\n#11 0x555555a5f4e7 <unknown>\n#12 0x555555ab7df7 <unknown>\n#13 0x555555a5dc2a <unknown>\n#14 0x555555a5e931 <unknown>\n#15 0x555555f90cf9 <unknown>\n#16 0x555555f93cdc <unknown>\n#17 0x555555f79f79 <unknown>\n#18 0x555555f948b5 <unknown>\n#19 0x555555f619c3 <unknown>\n#20 0x555555fb7228 <unknown>\n#21 0x555555fb7403 <unknown>\n#22 0x555555fc9463 <unknown>\n#23 0x7ffffefbf1f5 <unknown>\n","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":928,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1315,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":416,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":213,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":236,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":82,"name":"run"},{"filename":"/opt/airflow/dags/books_automated.py","lineno":94,"name":"scrape"},{"filename":"/opt/airflow/dags/books_automated.py","lineno":47,"name":"get_books"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py","lineno":601,"name":"find_element"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py","lineno":572,"name":"_execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py","lineno":458,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py","lineno":233,"name":"check_response"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-11-19T09:14:29.521757Z","level":"info","event":"Task instance in failure state","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.537967Z","level":"info","event":"Task start","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.545654Z","level":"info","event":"Task:<Task(PythonOperator): book_scraper>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.551106Z","level":"info","event":"Failure caused by Message: stale element reference: stale element not found","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.553629Z","level":"info","event":"  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.556865Z","level":"info","event":"Stacktrace:","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.557390Z","level":"info","event":"#0 0x555555fca4ca <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.557774Z","level":"info","event":"#1 0x555555a18e4b <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.558062Z","level":"info","event":"#2 0x555555a2c71b <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.558261Z","level":"info","event":"#3 0x555555a2b4ec <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.558513Z","level":"info","event":"#4 0x555555a20628 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.558795Z","level":"info","event":"#5 0x555555a1e85f <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.559024Z","level":"info","event":"#6 0x555555a22473 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.559248Z","level":"info","event":"#7 0x555555a22543 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.559435Z","level":"info","event":"#8 0x555555a6b23f <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.559646Z","level":"info","event":"#9 0x555555a6ba51 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.559820Z","level":"info","event":"#10 0x555555a5f5f6 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.559995Z","level":"info","event":"#11 0x555555a5f4e7 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.560183Z","level":"info","event":"#12 0x555555ab7df7 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.560364Z","level":"info","event":"#13 0x555555a5dc2a <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.560569Z","level":"info","event":"#14 0x555555a5e931 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.560799Z","level":"info","event":"#15 0x555555f90cf9 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.560962Z","level":"info","event":"#16 0x555555f93cdc <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.561123Z","level":"info","event":"#17 0x555555f79f79 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.561280Z","level":"info","event":"#18 0x555555f948b5 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.562004Z","level":"info","event":"#19 0x555555f619c3 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.562244Z","level":"info","event":"#20 0x555555fb7228 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.562444Z","level":"info","event":"#21 0x555555fb7403 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.562696Z","level":"info","event":"#22 0x555555fc9463 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.564253Z","level":"info","event":"#23 0x7ffffefbf1f5 <unknown>","logger":"task.stdout"}
+{"timestamp":"2025-11-19T09:14:29.565211Z","level":"info","event":"","logger":"task.stdout"}
