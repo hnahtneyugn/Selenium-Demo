@@ -15,7 +15,6 @@ conn = psycopg2.connect(
 cur = conn.cursor()
 
 # Create table
-
 cur.execute(query="""
 CREATE TABLE vietrace (
 RANK INT PRIMARY KEY,
@@ -31,7 +30,7 @@ SPEED DOUBLE PRECISION);
 """)
 
 
-# Iterate through each row
+# Iterate through each row and insert into DB
 for _, row in df.iterrows():
     cur.execute(
         """
