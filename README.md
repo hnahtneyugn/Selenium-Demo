@@ -289,3 +289,10 @@ Data in 16:20 and 16:25 should be similar:
 ![](./images/similar.png)
 
 
+## Crawling data from Vietrace365
+
+[Vietrace365](https://vietrace365.vn/races/25-000-km-move-on-run-more#scoreboard) is a racing challenge for SVTech staff, occuring from 15/11/2025 to 28/02/2026. Participants can either run or walk, and the minimum distance each person should achieve is 100km over a period of three months.
+
+Data for the scoreboard in 20/11/2025 can be found in `data/vietrace/scoreboard.csv`. The data is then inserted into a PostgreSQL database:
+![](./images/vietrace.png)
+
