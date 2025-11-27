@@ -1,6 +1,5 @@
 from airflow import DAG
 from airflow.providers.standard.operators.python import PythonOperator
-from datetime import datetime
 import pendulum
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

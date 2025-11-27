@@ -5,8 +5,8 @@ from selenium.common.exceptions import NoSuchElementException
 import json
 
 # Specify paths
-path_to_brave = "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
-path_to_chromedriver = "/usr/local/bin/chromedriver"
+path_to_brave = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
+path_to_chromedriver = r"C:\Windows\chromedriver.exe"
 url_to_crawl = "https://books.toscrape.com/"
 log_path = "./logs/book_logging.txt"
 
@@ -99,5 +99,5 @@ if __name__ == "__main__":
     books_list = get_books()
 
     # Dump data in JSON format
-    with open("./data/books.json", "w", encoding="utf-8") as file:
+    with open("./data/simple_data/books.json", "w", encoding="utf-8") as file:
         json.dump(books_list, file, ensure_ascii=False, indent=4)

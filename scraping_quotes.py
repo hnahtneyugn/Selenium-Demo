@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 import json
 
 # Specify paths
-path_to_brave = "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
-path_to_chromedriver = "/usr/local/bin/chromedriver"
+path_to_brave = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
+path_to_chromedriver = r"C:\Windows\chromedriver.exe"
 url_to_crawl = "https://quotes.toscrape.com"
 log_path = "./logs/quote_logging.txt"
 

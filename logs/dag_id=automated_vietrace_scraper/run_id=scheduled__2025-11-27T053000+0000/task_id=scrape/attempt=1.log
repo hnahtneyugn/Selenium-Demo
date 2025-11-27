@@ -1,0 +1,436 @@
+{"timestamp":"2025-11-27T05:30:01.280647Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-27T05:30:01.282416Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/vietrace_automated.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-27T05:30:01.441783Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-27T05:30:01.442454Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-27T05:30:01.443151Z","level":"info","event":"Current task name:scrape","logger":"task.stdout"}
+{"timestamp":"2025-11-27T05:30:01.443606Z","level":"info","event":"Dag name:automated_vietrace_scraper","logger":"task.stdout"}
+{"timestamp":"2025-11-27T05:30:09.887489Z","level":"info","event":"Processing page 1","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:30:12.133541Z","level":"info","event":"Found 10 visible athletes on page 1","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:30:12.719564Z","level":"info","event":"Processed: 1 - Phan Mai Đức","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:13.254941Z","level":"info","event":"Processed: 2 - VU XUAN NAM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:13.732805Z","level":"info","event":"Processed: 3 - TINH CHAU NGOC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:14.197970Z","level":"info","event":"Processed: 4 - Phạm Kiên","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:14.654255Z","level":"info","event":"Processed: 5 - DUNG TRAN QUANG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:15.109919Z","level":"info","event":"Processed: 6 - Bùi Hà","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:15.533464Z","level":"info","event":"Processed: 7 - Nguyễn Xuân Tú","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:16.171643Z","level":"info","event":"Processed: 8 - Manh Nguyen","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:16.657824Z","level":"info","event":"Processed: 9 - NGUYEN HOANG DIEU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:17.031807Z","level":"info","event":"Processed: 10 - Hoang Phuong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:17.090543Z","level":"info","event":"Total pagination elements: 15","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:30:19.322176Z","level":"info","event":"Processing page 2","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:30:21.517576Z","level":"info","event":"Found 10 visible athletes on page 2","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:30:21.990473Z","level":"info","event":"Processed: 11 - Nguyễn Trúc Tùng","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:22.521429Z","level":"info","event":"Processed: 12 - DO THI PHUONG LAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:22.973904Z","level":"info","event":"Processed: 13 - NGUYEN TAN TAI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:23.484925Z","level":"info","event":"Processed: 14 - Nguyen Tran Xuan","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:23.953346Z","level":"info","event":"Processed: 15 - Nguyen Mi","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:24.463945Z","level":"info","event":"Processed: 16 - NGUYEN THI KIM DUY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:24.923497Z","level":"info","event":"Processed: 17 - DOAN CONG DANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:25.377790Z","level":"info","event":"Processed: 18 - NAM MAI PHUONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:25.844662Z","level":"info","event":"Processed: 19 - Nguyễn Công","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:26.329471Z","level":"info","event":"Processed: 20 - Nguyễn Thao","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:26.391094Z","level":"info","event":"Total pagination elements: 15","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:30:28.599319Z","level":"info","event":"Processing page 3","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:30:30.819605Z","level":"info","event":"Found 10 visible athletes on page 3","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:30:31.304846Z","level":"info","event":"Processed: 21 - TRAN MINH LONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:31.817148Z","level":"info","event":"Processed: 22 - Vũ Dung","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:32.391868Z","level":"info","event":"Processed: 23 - NHUNG DAO T HONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:32.917379Z","level":"info","event":"Processed: 24 - TRA HUYNH THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:33.413149Z","level":"info","event":"Processed: 25 - NGUYEN CAO CHI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:33.925527Z","level":"info","event":"Processed: 26 - Lê Tươi","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:34.419918Z","level":"info","event":"Processed: 27 - Khai Nguyen","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:34.955592Z","level":"info","event":"Processed: 28 - HO SY SON KA","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:35.449530Z","level":"info","event":"Processed: 29 - NGUYET NGUYEN THAN MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:35.954541Z","level":"info","event":"Processed: 30 - H20 Hana","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:36.026644Z","level":"info","event":"Total pagination elements: 15","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:30:38.255134Z","level":"info","event":"Processing page 4","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:30:40.495442Z","level":"info","event":"Found 10 visible athletes on page 4","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:30:41.013713Z","level":"info","event":"Processed: 31 - Nguyễn Quốc Hải","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:41.542081Z","level":"info","event":"Processed: 32 - Phạm Chi","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:42.039780Z","level":"info","event":"Processed: 33 - NGUYỄN NHƯ TRỌNG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:42.577658Z","level":"info","event":"Processed: 34 - QUYNH VO NGOC NHU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:43.094922Z","level":"info","event":"Processed: 35 - HAI NGUYEN VIET","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:43.605074Z","level":"info","event":"Processed: 36 - THU VÂN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:44.088210Z","level":"info","event":"Processed: 37 - NGUYEN SONG QUYNH MY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:44.617001Z","level":"info","event":"Processed: 38 - LAM NGOC LONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:45.109743Z","level":"info","event":"Processed: 39 - Vũ Tường","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:45.604692Z","level":"info","event":"Processed: 40 - Nguyen Hung","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:45.663031Z","level":"info","event":"Total pagination elements: 15","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:30:47.862819Z","level":"info","event":"Processing page 5","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:30:50.048302Z","level":"info","event":"Found 10 visible athletes on page 5","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:30:50.497621Z","level":"info","event":"Processed: 41 - Nguyễn Duy","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:50.992535Z","level":"info","event":"Processed: 42 - DAO THI MAI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:51.436668Z","level":"info","event":"Processed: 43 - NGUYEN MINH NHAT","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:51.890657Z","level":"info","event":"Processed: 44 - LY LE DIEU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:52.402204Z","level":"info","event":"Processed: 45 - SON PHAM THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:52.847918Z","level":"info","event":"Processed: 46 - Vũ Tuấn Anh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:53.287640Z","level":"info","event":"Processed: 47 - Dat Nguyen Trong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:53.761573Z","level":"info","event":"Processed: 48 - THAI NGUYEN VAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:54.210771Z","level":"info","event":"Processed: 49 - NGUYỄN HỒNG SANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:54.693677Z","level":"info","event":"Processed: 50 - Son Pham Thi Thanh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:30:54.751451Z","level":"info","event":"Total pagination elements: 15","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:30:56.947109Z","level":"info","event":"Processing page 6","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:30:59.144994Z","level":"info","event":"Found 10 visible athletes on page 6","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:30:59.597386Z","level":"info","event":"Processed: 51 - CHIEN NGUYEN VAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:00.043720Z","level":"info","event":"Processed: 52 - Lam Nguy","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:00.500242Z","level":"info","event":"Processed: 53 - Le Cong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:01.176819Z","level":"info","event":"Processed: 54 - Thuy Hong Duong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:01.645727Z","level":"info","event":"Processed: 55 - Nguyễn Hoàng Nam","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:02.207468Z","level":"info","event":"Processed: 56 - HUYNH NGUYET THU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:02.748414Z","level":"info","event":"Processed: 57 - BACH MAI XUAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:03.218635Z","level":"info","event":"Processed: 58 - Trương Tuấn","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:03.719498Z","level":"info","event":"Processed: 59 - DUNG NGUYEN TIEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:04.211700Z","level":"info","event":"Processed: 60 - Thuy Dinh Thi Thanh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:04.281422Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:31:06.558638Z","level":"info","event":"Processing page 7","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:31:08.776877Z","level":"info","event":"Found 10 visible athletes on page 7","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:31:09.297206Z","level":"info","event":"Processed: 61 - HUỲNH GIANG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:09.807531Z","level":"info","event":"Processed: 62 - TRINH NGOC Y","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:10.279762Z","level":"info","event":"Processed: 63 - TRAN THANH HA","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:10.728875Z","level":"info","event":"Processed: 64 - THANH DO SY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:11.235338Z","level":"info","event":"Processed: 65 - LE DINH DUC TRONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:11.720731Z","level":"info","event":"Processed: 66 - DUNG NGUYEN TUAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:12.232153Z","level":"info","event":"Processed: 67 - Vo Thuy Trang","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:12.780880Z","level":"info","event":"Processed: 68 - HAN PHAM BAO","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:13.275299Z","level":"info","event":"Processed: 69 - PHAM THI THU TRANG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:13.779633Z","level":"info","event":"Processed: 70 - Hai Pham Ngoc","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:13.841316Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:31:16.108026Z","level":"info","event":"Processing page 8","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:31:18.323889Z","level":"info","event":"Found 10 visible athletes on page 8","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:31:18.832275Z","level":"info","event":"Processed: 71 - NHI TRAN NGOC YEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:19.338646Z","level":"info","event":"Processed: 72 - VY MAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:19.787667Z","level":"info","event":"Processed: 73 - LE DANG THUC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:20.288284Z","level":"info","event":"Processed: 74 - LUONG PHAM BA","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:20.760433Z","level":"info","event":"Processed: 75 - AN LE DINH TRUONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:21.224993Z","level":"info","event":"Processed: 76 - LIEM HOANG HAI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:21.704502Z","level":"info","event":"Processed: 77 - TUẤN NGUYỄN VĂN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:22.177961Z","level":"info","event":"Processed: 78 - Nguyễn Thị Hoàng Diệu","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:22.708125Z","level":"info","event":"Processed: 79 - Khiem Nguyen Trong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:23.194252Z","level":"info","event":"Processed: 80 - Nguyen Minh Duc","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:23.251306Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:31:25.502948Z","level":"info","event":"Processing page 9","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:31:27.699351Z","level":"info","event":"Found 10 visible athletes on page 9","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:31:28.180725Z","level":"info","event":"Processed: 81 - NGUYEN THI TUYET","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:28.621771Z","level":"info","event":"Processed: 82 - Nguyễn Ly","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:29.102227Z","level":"info","event":"Processed: 83 - LE THI KIM SON","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:29.535128Z","level":"info","event":"Processed: 84 - SON VU TUAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:29.983513Z","level":"info","event":"Processed: 85 - LE THE HOANG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:30.437168Z","level":"info","event":"Processed: 86 - trần kim","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:30.914410Z","level":"info","event":"Processed: 87 - Hàn Thu","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:31.363680Z","level":"info","event":"Processed: 88 - DANH NT","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:31.845513Z","level":"info","event":"Processed: 89 - Tống Hiển","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:32.395735Z","level":"info","event":"Processed: 90 - NGUYEN DANG KHOA","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:32.459293Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:31:34.670154Z","level":"info","event":"Processing page 10","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:31:36.866286Z","level":"info","event":"Found 10 visible athletes on page 10","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:31:37.363086Z","level":"info","event":"Processed: 91 - Nguyen Minh Duc","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:37.853840Z","level":"info","event":"Processed: 92 - NGUYỄN VĂN THƠ","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:38.350472Z","level":"info","event":"Processed: 93 - QUANG NGUYEN MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:38.822117Z","level":"info","event":"Processed: 94 - Nguyễn Phú Cường","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:39.300785Z","level":"info","event":"Processed: 95 - HOANG PHAM DUC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:39.781374Z","level":"info","event":"Processed: 96 - DO NAM ANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:40.257427Z","level":"info","event":"Processed: 97 - CUONG VO PHU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:40.739157Z","level":"info","event":"Processed: 98 - Dang Van Huy","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:41.220102Z","level":"info","event":"Processed: 99 - Le Suong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:41.702430Z","level":"info","event":"Processed: 100 - NGUYEN HUU THIEN TIN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:41.767350Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:31:43.992304Z","level":"info","event":"Processing page 11","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:31:46.191733Z","level":"info","event":"Found 10 visible athletes on page 11","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:31:46.652771Z","level":"info","event":"Processed: 101 - TRUONG VO NGOC CHAU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:47.093291Z","level":"info","event":"Processed: 102 - Nguyen Giang","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:47.535189Z","level":"info","event":"Processed: 103 - KHOA NGUYEN ANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:47.980177Z","level":"info","event":"Processed: 104 - KHANG VO MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:48.451852Z","level":"info","event":"Processed: 105 - Nguyễn Toàn","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:48.897142Z","level":"info","event":"Processed: 106 - NGO MINH HUNG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:49.369789Z","level":"info","event":"Processed: 107 - Hằng Trần Thu","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:49.859353Z","level":"info","event":"Processed: 108 - LE VAN TRONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:50.332692Z","level":"info","event":"Processed: 109 - PHAM CUONG THINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:50.814104Z","level":"info","event":"Processed: 110 - Anh Thư","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:50.886469Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:31:53.120709Z","level":"info","event":"Processing page 12","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:31:55.312339Z","level":"info","event":"Found 10 visible athletes on page 12","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:31:55.809861Z","level":"info","event":"Processed: 111 - THONG HO NGUYEN MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:56.308411Z","level":"info","event":"Processed: 112 - Nguyễn Thanh Thiên An","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:56.803185Z","level":"info","event":"Processed: 113 - Mr. HAPPY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:57.294296Z","level":"info","event":"Processed: 114 - GIANG HOANG LE","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:57.736332Z","level":"info","event":"Processed: 115 - HOANG DUC THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:58.183110Z","level":"info","event":"Processed: 116 - NGHIA LE HUU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:58.649741Z","level":"info","event":"Processed: 117 - MANH TRAN DUC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:59.103575Z","level":"info","event":"Processed: 118 - Lê Thị Nguyện","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:31:59.577800Z","level":"info","event":"Processed: 119 - DUC THO DOAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:00.033359Z","level":"info","event":"Processed: 120 - Nguyễn Lê Anh Hạ","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:00.090199Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:32:02.300043Z","level":"info","event":"Processing page 13","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:32:04.528464Z","level":"info","event":"Found 10 visible athletes on page 13","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:32:05.020212Z","level":"info","event":"Processed: 121 - NGUYEN THI LAN THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:05.501677Z","level":"info","event":"Processed: 122 - DIEP DINH NGOC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:05.998733Z","level":"info","event":"Processed: 123 - LUU THI THU HIEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:06.578005Z","level":"info","event":"Processed: 124 - NGUYEN DINH TUAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:07.073972Z","level":"info","event":"Processed: 125 - Nguyễn Nguyên","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:07.532392Z","level":"info","event":"Processed: 126 - LE THI THUY KIEU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:08.133986Z","level":"info","event":"Processed: 127 - Ngọc Lê","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:08.607590Z","level":"info","event":"Processed: 128 - QUYNH ANH NGUYEN THI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:09.083122Z","level":"info","event":"Processed: 129 - NGUYEN T NGOC HUONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:09.560319Z","level":"info","event":"Processed: 130 - Nguyễn Huy Thành","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:09.624763Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:32:11.847025Z","level":"info","event":"Processing page 14","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:32:14.123563Z","level":"info","event":"Found 10 visible athletes on page 14","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:32:14.693954Z","level":"info","event":"Processed: 131 - Nguyễn Đăng Tới","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:15.248063Z","level":"info","event":"Processed: 132 - NGUYEN VAN THIEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:15.813731Z","level":"info","event":"Processed: 133 - Nguyen Yen Phi","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:16.376701Z","level":"info","event":"Processed: 134 - Tuấn Hoàng","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:16.911344Z","level":"info","event":"Processed: 135 - Hanh Le Hong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:17.459597Z","level":"info","event":"Processed: 136 - PHAN ANH DUY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:18.046078Z","level":"info","event":"Processed: 137 - DOAN NGOC THIEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:18.617138Z","level":"info","event":"Processed: 138 - HUONG NGUYEN T DIEM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:19.167984Z","level":"info","event":"Processed: 139 - Ton Hoang","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:19.654777Z","level":"info","event":"Processed: 140 - CUONG HOANG MANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:19.719699Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:32:21.995475Z","level":"info","event":"Processing page 15","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:32:24.216962Z","level":"info","event":"Found 10 visible athletes on page 15","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:32:24.764582Z","level":"info","event":"Processed: 141 - PHAM KHANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:25.243911Z","level":"info","event":"Processed: 142 - HUNG DO MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:25.740910Z","level":"info","event":"Processed: 143 - TRINH DO VAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:26.201876Z","level":"info","event":"Processed: 144 - Nguyen Hoang Thach","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:26.678327Z","level":"info","event":"Processed: 145 - HOANG BUI HUY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:27.235785Z","level":"info","event":"Processed: 146 - Lê Đức Thành","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:27.734492Z","level":"info","event":"Processed: 147 - THUY LE THI DIEM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:28.272231Z","level":"info","event":"Processed: 148 - Nguyễn Quỳnh Như","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:28.759975Z","level":"info","event":"Processed: 149 - DUONG PHAM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:29.257258Z","level":"info","event":"Processed: 150 - DUC NGUYEN ANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:29.334285Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:32:31.543488Z","level":"info","event":"Processing page 16","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:32:33.731288Z","level":"info","event":"Found 10 visible athletes on page 16","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:32:34.208826Z","level":"info","event":"Processed: 151 - DAO NGUYEN QUY NAM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:34.717068Z","level":"info","event":"Processed: 152 - VY NGUYEN NGOC THUY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:35.197871Z","level":"info","event":"Processed: 153 - NGUYEN PHUONG THAO","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:35.697782Z","level":"info","event":"Processed: 154 - Lê Đăng Hoàng Long","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:36.204014Z","level":"info","event":"Processed: 155 - Đỗ Ngân","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:36.680445Z","level":"info","event":"Processed: 156 - HUONG NGUYEN THI LAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:37.164021Z","level":"info","event":"Processed: 157 - Bùi Quỳnh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:37.645674Z","level":"info","event":"Processed: 158 - Bui Tri Dam","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:38.096132Z","level":"info","event":"Processed: 159 - Nguyễn Quốc","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:38.534767Z","level":"info","event":"Processed: 160 - NGUYEN HONG TIEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:38.590484Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:32:40.815504Z","level":"info","event":"Processing page 17","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:32:43.016921Z","level":"info","event":"Found 10 visible athletes on page 17","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:32:43.479815Z","level":"info","event":"Processed: 161 - TRAN NGOC HOAI TRUNG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:43.929431Z","level":"info","event":"Processed: 162 - TU NGUYEN THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:44.392314Z","level":"info","event":"Processed: 163 - Lê Trang","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:44.899971Z","level":"info","event":"Processed: 164 - Dũng Đinh Thanh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:45.370879Z","level":"info","event":"Processed: 165 - NGUYEN TRUNG HIEU (SVT)","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:45.841615Z","level":"info","event":"Processed: 166 - ANH HOANG DIEP","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:46.290160Z","level":"info","event":"Processed: 167 - CHU HOA BINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:46.728104Z","level":"info","event":"Processed: 168 - GIANG NGUYEN HONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:47.263881Z","level":"info","event":"Processed: 169 - Trần Tiến","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:47.788594Z","level":"info","event":"Processed: 170 - LE TO HIEU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:47.871028Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:32:50.131699Z","level":"info","event":"Processing page 18","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:32:52.350570Z","level":"info","event":"Found 10 visible athletes on page 18","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:32:52.839941Z","level":"info","event":"Processed: 171 - KHANG NGUYEN MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:53.277717Z","level":"info","event":"Processed: 172 - HAU TRINH THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:53.726022Z","level":"info","event":"Processed: 173 - CUONG PHU QUOC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:54.196643Z","level":"info","event":"Processed: 174 - PHUC NGUYEN TIEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:54.673551Z","level":"info","event":"Processed: 175 - KIEN KIM TUAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:55.171554Z","level":"info","event":"Processed: 176 - LINH LE THI THUY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:55.614153Z","level":"info","event":"Processed: 177 - Dinh Thanh Ha","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:56.079693Z","level":"info","event":"Processed: 178 - HỒ THẾ VĂN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:56.531975Z","level":"info","event":"Processed: 179 - TRAN LE HOANG THINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:56.978073Z","level":"info","event":"Processed: 180 - LE THI QUOC OANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:32:57.037171Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:32:59.230468Z","level":"info","event":"Processing page 19","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:33:01.440774Z","level":"info","event":"Found 10 visible athletes on page 19","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:33:01.878443Z","level":"info","event":"Processed: 181 - Nguyễn Đức Đoan","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:02.418115Z","level":"info","event":"Processed: 182 - Trần Thanh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:02.904091Z","level":"info","event":"Processed: 183 - Nguyễn Văn Thọ","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:03.396393Z","level":"info","event":"Processed: 184 - LONG DANG THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:03.941615Z","level":"info","event":"Processed: 185 - NGUYEN VAN NGHIEM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:04.487074Z","level":"info","event":"Processed: 186 - Nguyễn Hoàng Anh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:05.061200Z","level":"info","event":"Processed: 187 - NGUYEN HUU HIEU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:05.573367Z","level":"info","event":"Processed: 188 - VUONG NGUYEN VIET","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:06.093322Z","level":"info","event":"Processed: 189 - VU NGOC MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:06.671237Z","level":"info","event":"Processed: 190 - NHAN NGUYEN THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:06.752143Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:33:09.016772Z","level":"info","event":"Processing page 20","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:33:11.246877Z","level":"info","event":"Found 10 visible athletes on page 20","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:33:11.786756Z","level":"info","event":"Processed: 191 - ANH VU NGOC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:12.366053Z","level":"info","event":"Processed: 192 - B20dcat015_Nguyễn Đăng Tuấn Bảo","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:12.916783Z","level":"info","event":"Processed: 193 - DANG DANH DUNG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:13.439898Z","level":"info","event":"Processed: 194 - KHUAT THANH NAM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:14.076004Z","level":"info","event":"Processed: 195 - Nguyễn Mơ","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:14.620675Z","level":"info","event":"Processed: 196 - BUI THE LINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:15.108423Z","level":"info","event":"Processed: 197 - vũ tuấn hoàng","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:15.546942Z","level":"info","event":"Processed: 198 - TRINH QUOC ANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:15.997674Z","level":"info","event":"Processed: 199 - VAN NGUYEN THI HAI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:16.442055Z","level":"info","event":"Processed: 200 - Trần Thuỳ","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:16.501739Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:33:18.698013Z","level":"info","event":"Processing page 21","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:33:20.883572Z","level":"info","event":"Found 10 visible athletes on page 21","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:33:21.350318Z","level":"info","event":"Processed: 201 - Văn Tân Nguyễn","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:21.818874Z","level":"info","event":"Processed: 202 - Văn Định Lê","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:22.263090Z","level":"info","event":"Processed: 203 - LE VAN QUY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:22.800337Z","level":"info","event":"Processed: 204 - Vũ Quỳ","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:23.243846Z","level":"info","event":"Processed: 205 - DINH BA Phuc","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:23.722491Z","level":"info","event":"Processed: 206 - HUYNH THI KIEU NGAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:24.208205Z","level":"info","event":"Processed: 207 - PHUONG NGUYEN LAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:24.683955Z","level":"info","event":"Processed: 208 - Tran Nhat Tan","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:25.146341Z","level":"info","event":"Processed: 209 - Hieu Duong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:25.588042Z","level":"info","event":"Processed: 210 - Chu Mạnh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:25.655761Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:33:27.855158Z","level":"info","event":"Processing page 22","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:33:30.051327Z","level":"info","event":"Found 10 visible athletes on page 22","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:33:30.518082Z","level":"info","event":"Processed: 211 - QUACH DAI QUANG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:30.978389Z","level":"info","event":"Processed: 212 - Hoang Nguyen Van","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:31.422735Z","level":"info","event":"Processed: 213 - NGÔ VĂN ĐẠT","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:31.880195Z","level":"info","event":"Processed: 214 - LE THI HAI YEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:32.404971Z","level":"info","event":"Processed: 215 - Phan Minh Ngà","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:32.882948Z","level":"info","event":"Processed: 216 - UY DO CHANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:33.330389Z","level":"info","event":"Processed: 217 - Nguyễn Phong","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:33.790215Z","level":"info","event":"Processed: 218 - VUONG QUOC SON","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:34.237969Z","level":"info","event":"Processed: 219 - HUYỀN LINH NGUYỄN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:34.771968Z","level":"info","event":"Processed: 220 - Nguyễn Thị Bích Hồng","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:34.841528Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:33:37.061746Z","level":"info","event":"Processing page 23","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:33:39.251680Z","level":"info","event":"Found 10 visible athletes on page 23","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:33:39.683462Z","level":"info","event":"Processed: 221 - Viet Tuan","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:40.164262Z","level":"info","event":"Processed: 222 - HUNG VU MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:40.645529Z","level":"info","event":"Processed: 223 - LONG NGUYEN THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:41.128568Z","level":"info","event":"Processed: 224 - LE THIEN NHI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:41.616482Z","level":"info","event":"Processed: 225 - Cindy Do","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:42.122231Z","level":"info","event":"Processed: 226 - Nguyễn Thành","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:42.645961Z","level":"info","event":"Processed: 227 - ĐONG NHAT ANH TAM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:43.144751Z","level":"info","event":"Processed: 228 - THAO LUONG THI THU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:43.642094Z","level":"info","event":"Processed: 229 - NGUYEN NHU PHUC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:44.149176Z","level":"info","event":"Processed: 230 - TAN LE AN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:44.209458Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:33:46.446633Z","level":"info","event":"Processing page 24","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:33:48.630894Z","level":"info","event":"Found 10 visible athletes on page 24","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:33:49.074418Z","level":"info","event":"Processed: 231 - Phan Tu","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:49.491556Z","level":"info","event":"Processed: 232 - Dung Bui","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:49.917078Z","level":"info","event":"Processed: 233 - Doan Anh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:50.357663Z","level":"info","event":"Processed: 234 - TAM VUONG SY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:50.780570Z","level":"info","event":"Processed: 235 - Nguyen Nga","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:51.217273Z","level":"info","event":"Processed: 236 - Trần Hải","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:51.634718Z","level":"info","event":"Processed: 237 - BUI THI HONG NHUNG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:52.059296Z","level":"info","event":"Processed: 238 - Bùi Hương","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:52.551842Z","level":"info","event":"Processed: 239 - ĐINH VIỆT HOÀNG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:52.979648Z","level":"info","event":"Processed: 240 - LE MANH LINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:53.038491Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:33:55.235051Z","level":"info","event":"Processing page 25","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:33:57.411854Z","level":"info","event":"Found 10 visible athletes on page 25","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:33:57.845024Z","level":"info","event":"Processed: 241 - NHUT TRAN MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:58.264680Z","level":"info","event":"Processed: 242 - DOAN TRONG KHANG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:58.667361Z","level":"info","event":"Processed: 243 - PHUONG NGUYEN THI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:59.098026Z","level":"info","event":"Processed: 244 - Huỳnh Phương","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:59.529348Z","level":"info","event":"Processed: 245 - QUOC THIEU MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:33:59.978984Z","level":"info","event":"Processed: 246 - Huy Duong Pham","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:00.413335Z","level":"info","event":"Processed: 247 - TUNG HOANG TRONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:00.839730Z","level":"info","event":"Processed: 248 - THUY LANG DUC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:01.261232Z","level":"info","event":"Processed: 249 - Lucky Cetonia","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:01.700812Z","level":"info","event":"Processed: 250 - TRAN XUAN TRUONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:01.755135Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:34:03.957242Z","level":"info","event":"Processing page 26","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:34:06.163619Z","level":"info","event":"Found 10 visible athletes on page 26","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:34:06.729324Z","level":"info","event":"Processed: 251 - NHUNG PHAM T HONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:07.220237Z","level":"info","event":"Processed: 252 - Lê Đoàn Sơn Nguyên","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:07.672784Z","level":"info","event":"Processed: 253 - NgocND","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:08.149279Z","level":"info","event":"Processed: 254 - NGUYEN THANH DANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:08.617827Z","level":"info","event":"Processed: 255 - NGUYEN DUC HIEU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:09.081690Z","level":"info","event":"Processed: 256 - THU NGUYEN THI THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:09.504109Z","level":"info","event":"Processed: 257 - NHUNG TRUONG THI HONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:09.939464Z","level":"info","event":"Processed: 258 - DANG NGOC THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:10.400278Z","level":"info","event":"Processed: 259 - Thu Hà Nguyễn","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:10.867967Z","level":"info","event":"Processed: 260 - TUNG NGUYEN XUAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:10.926069Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:34:13.149214Z","level":"info","event":"Processing page 27","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:34:15.377977Z","level":"info","event":"Found 10 visible athletes on page 27","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:34:15.871656Z","level":"info","event":"Processed: 261 - CHINH Thanh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:16.366365Z","level":"info","event":"Processed: 262 - NGUYEN NGOC LAM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:16.847551Z","level":"info","event":"Processed: 263 - DINH XUAN BAO","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:17.287600Z","level":"info","event":"Processed: 264 - DO DUC THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:17.787008Z","level":"info","event":"Processed: 265 - NHUNG NGUYEN THI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:18.272641Z","level":"info","event":"Processed: 266 - Dao Van Nam","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:18.735803Z","level":"info","event":"Processed: 267 - THAO NGUYEN BICH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:19.216283Z","level":"info","event":"Processed: 268 - Lâm Trang","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:19.687777Z","level":"info","event":"Processed: 269 - Dinh Nam Nhut","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:20.157622Z","level":"info","event":"Processed: 270 - LE TRAN GIANG DINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:20.228830Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:34:22.451516Z","level":"info","event":"Processing page 28","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:34:24.658359Z","level":"info","event":"Found 10 visible athletes on page 28","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:34:25.117450Z","level":"info","event":"Processed: 271 - Phan Hoang","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:25.531163Z","level":"info","event":"Processed: 272 - NGUYEN VAN HO","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:25.949134Z","level":"info","event":"Processed: 273 - Lương Thanh Tùng","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:26.393325Z","level":"info","event":"Processed: 274 - NGUYEN HOANG HIEU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:26.830497Z","level":"info","event":"Processed: 275 - NGUYEN TIEN KHANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:27.263383Z","level":"info","event":"Processed: 276 - TRAN THI HIEU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:27.680115Z","level":"info","event":"Processed: 277 - Tran Duy","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:28.141519Z","level":"info","event":"Processed: 278 - VINH LE HOANG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:28.558820Z","level":"info","event":"Processed: 279 - Nguyen Huy","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:28.981137Z","level":"info","event":"Processed: 280 - HUONG DANG TRAN LAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:29.046109Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:34:31.250395Z","level":"info","event":"Processing page 29","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:34:33.432006Z","level":"info","event":"Found 10 visible athletes on page 29","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:34:33.861142Z","level":"info","event":"Processed: 281 - Dang Son","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:34.301140Z","level":"info","event":"Processed: 282 - DAC CHU SY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:34.764824Z","level":"info","event":"Processed: 283 - DUC LUYEN TIEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:35.233642Z","level":"info","event":"Processed: 284 - Trần Việt Anh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:35.682391Z","level":"info","event":"Processed: 285 - NGUYEN DUC THANH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:36.139448Z","level":"info","event":"Processed: 286 - HÙNG VŨ VIỆT","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:36.593023Z","level":"info","event":"Processed: 287 - BUI THI TUYET MAI","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:37.078865Z","level":"info","event":"Processed: 288 - NGUYEN VIET DUC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:37.524996Z","level":"info","event":"Processed: 289 - Luong Vy","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:37.996557Z","level":"info","event":"Processed: 290 - HUY NGUYỄN AN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:38.060238Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:34:40.275060Z","level":"info","event":"Processing page 30","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:34:42.621232Z","level":"info","event":"Found 10 visible athletes on page 30","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:34:43.038685Z","level":"info","event":"Processed: 291 - Trần Thị Huyền Tâm","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:43.468611Z","level":"info","event":"Processed: 292 - Hau Tran Phuoc","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:43.939087Z","level":"info","event":"Processed: 293 - Minh Duy Vu","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:44.407868Z","level":"info","event":"Processed: 294 - DAT NGUYEN QUOC","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:44.901989Z","level":"info","event":"Processed: 295 - Ho Quoc Thang","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:45.371438Z","level":"info","event":"Processed: 296 - TRAM VO HUYEN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:45.837527Z","level":"info","event":"Processed: 297 - NGUYEN MINH TU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:46.297845Z","level":"info","event":"Processed: 298 - HA KIEU MY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:46.762272Z","level":"info","event":"Processed: 299 - Nguyễn Quang Thành","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:47.241549Z","level":"info","event":"Processed: 300 - Linh Nguyen","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:47.298796Z","level":"info","event":"Total pagination elements: 16","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:34:49.502205Z","level":"info","event":"Processing page 31","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:34:51.703564Z","level":"info","event":"Found 10 visible athletes on page 31","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:34:52.158722Z","level":"info","event":"Processed: 301 - HUYNH THAI HOA","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:52.692600Z","level":"info","event":"Processed: 302 - Nguyễn Vân","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:53.128355Z","level":"info","event":"Processed: 303 - Le Hai","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:53.585186Z","level":"info","event":"Processed: 304 - NGUYEN KHAC XUAN BACH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:54.049531Z","level":"info","event":"Processed: 305 - NGUYEN DUY THONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:54.524405Z","level":"info","event":"Processed: 306 - Dao Tan","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:55.034667Z","level":"info","event":"Processed: 307 - Luân Đặng Văn","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:55.502527Z","level":"info","event":"Processed: 308 - HO MINH CHI TAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:55.989117Z","level":"info","event":"Processed: 309 - HA BUI THU","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:56.488385Z","level":"info","event":"Processed: 310 - TAN TRAN HUYNH MINH","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:34:56.548096Z","level":"info","event":"Total pagination elements: 13","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:34:58.722396Z","level":"info","event":"Processing page 32","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:35:00.903707Z","level":"info","event":"Found 10 visible athletes on page 32","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:35:01.346792Z","level":"info","event":"Processed: 311 - NGUYEN ANH QUAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:01.771923Z","level":"info","event":"Processed: 312 - AN PHAN TRUONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:02.215122Z","level":"info","event":"Processed: 313 - NGUYEN NGOC DUY","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:02.706915Z","level":"info","event":"Processed: 314 - Nguyễn Hải Hạnh","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:03.142767Z","level":"info","event":"Processed: 315 - Nguyen Diep","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:03.584082Z","level":"info","event":"Processed: 316 - Tùng Nguyễn Xuân","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:03.995300Z","level":"info","event":"Processed: 317 - PHUNG THI HUONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:04.453543Z","level":"info","event":"Processed: 318 - LIEM PHAN HOANG GIA","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:04.893695Z","level":"info","event":"Processed: 319 - LÊ QUANG TÂM","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:05.325846Z","level":"info","event":"Processed: 320 - NGUYEN HOANG LONG","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:05.379444Z","level":"info","event":"Total pagination elements: 13","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:35:07.544762Z","level":"info","event":"Processing page 33","logger":"root","filename":"vietrace_automated.py","lineno":76}
+{"timestamp":"2025-11-27T05:35:09.654684Z","level":"info","event":"Found 4 visible athletes on page 33","logger":"root","filename":"vietrace_automated.py","lineno":89}
+{"timestamp":"2025-11-27T05:35:10.006254Z","level":"info","event":"Processed: 321 - HIEU LE BA","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:10.351179Z","level":"info","event":"Processed: 322 - Tấn Thành Phạm","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:10.708582Z","level":"info","event":"Processed: 323 - HIEU NGUYEN XUAN","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:11.098302Z","level":"info","event":"Processed: 324 - Phạm Tân","logger":"root","filename":"vietrace_automated.py","lineno":130}
+{"timestamp":"2025-11-27T05:35:11.158515Z","level":"info","event":"Total pagination elements: 13","logger":"root","filename":"vietrace_automated.py","lineno":152}
+{"timestamp":"2025-11-27T05:35:11.263226Z","level":"info","event":"Reached last page!","logger":"root","filename":"vietrace_automated.py","lineno":161}
+{"timestamp":"2025-11-27T05:35:11.436741Z","level":"info","event":"Saved scoreboard to /opt/airflow/data/vietrace/20251127_123001_scoreboard.csv","logger":"root","filename":"vietrace_automated.py","lineno":208}
+{"timestamp":"2025-11-27T05:35:11.437375Z","level":"info","event":"Done. Returned value was: /opt/airflow/data/vietrace/20251127_123001_scoreboard.csv","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-27T05:35:11.437854Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019ac3ca-35e0-720b-93e9-41c21f40a1da'), task_id='scrape', dag_id='automated_vietrace_scraper', run_id='scheduled__2025-11-27T05:30:00+00:00', try_number=1, dag_version_id=UUID('019ac30d-d75c-796b-a994-68ad82c7144b'), map_index=-1, hostname='46b00f18a0ef', context_carrier={}, task=<Task(_PythonDecoratedOperator): scrape>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2025, 11, 27, 5, 30, 0, 682924, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1360}
+{"timestamp":"2025-11-27T05:35:11.479545Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-27T05:35:11.480275Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-27T05:35:11.481206Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): scrape>","logger":"task.stdout"}

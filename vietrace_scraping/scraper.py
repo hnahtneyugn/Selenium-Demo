@@ -118,7 +118,7 @@ def get_scoreboard():
                 break
 
     finally:
-        driver.close()
+        driver.quit()
     
     return scoreboard
 

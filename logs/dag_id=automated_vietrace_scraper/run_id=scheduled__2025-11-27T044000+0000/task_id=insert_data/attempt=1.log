@@ -1,0 +1,11 @@
+{"timestamp":"2025-11-27T04:54:05.742045Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-27T04:54:05.744132Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/vietrace_automated.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-27T04:54:05.914411Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-27T04:54:05.915182Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-27T04:54:05.916274Z","level":"info","event":"Current task name:insert_data","logger":"task.stdout"}
+{"timestamp":"2025-11-27T04:54:05.916812Z","level":"info","event":"Dag name:automated_vietrace_scraper","logger":"task.stdout"}
+{"timestamp":"2025-11-27T04:54:06.373484Z","level":"info","event":"CSV data loaded into PostgreSQL!","logger":"root","filename":"vietrace_automated.py","lineno":286}
+{"timestamp":"2025-11-27T04:54:06.374642Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-27T04:54:06.397504Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-27T04:54:06.398229Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-27T04:54:06.399165Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): insert_data>","logger":"task.stdout"}

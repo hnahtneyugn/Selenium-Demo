@@ -1,5 +1,18 @@
 # Selenium Demo
 
+<a id="readme-top"></a>
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#quotes">Quotes</a></li>
+    <li><a href="#books">Books</a></li>
+    <li><a href="#scraping-books-with-certain-conditions">Scraping books with certain conditions</a></li>
+    <li><a href="#automated-scraping-with-selenium-airflow-and-docker">Automated Scraping with Selenium, Airflow and Docker</a></li>
+    <li><a href="#crawling-data-from-vietrace365-with-selenium-airflow-and-docker">Crawling data from Vietrace365 with Selenium, Airflow and Docker</a></li>
+  </ol>
+</details>
+
 A demo application using Selenium to crawl data from a website. This demo is done in Brave Browser, by using Chromedriver with Brave binary.
 
 Websites to crawl:
@@ -44,6 +57,9 @@ A quote example:
 	]
 }
 ```
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
 ## Books
 
 Steps to collect quotes:
@@ -76,6 +92,8 @@ A book example:
 	"description": "October 1776--August 1777It is said that what a man sows he will reap--and for such a harvest there is no set season. No one connected to Reginald Aubrey is untouched by the crime he committed twenty years ago. Not William, the Oneida child Reginald stole and raised as his own. Identity shattered, enlisted in the British army, William trains with Loyalist refugees eager to October 1776--August 1777It is said that what a man sows he will reap--and for such a harvest there is no set season. No one connected to Reginald Aubrey is untouched by the crime he committed twenty years ago. Not William, the Oneida child Reginald stole and raised as his own. Identity shattered, enlisted in the British army, William trains with Loyalist refugees eager to annihilate the rebels who forced them into exile. Coming to terms with who and what he is proves impossible, but if he breaks his Loyalist oath, he'll be no better than the man who constructed his life of lies.Not Anna, Reginald's adopted daughter, nor Two Hawks, William's twin, both who long for Reginald to accept their love despite the challenges they will face, building a marriage that bridges two cultures. Not Good Voice and Stone Thrower, freed of bitterness by a courageous act of forgiveness, but still yearning for their firstborn son and fearful for the future of their Oneida people.As the British prepare to attack frontier New York and Patriot regiments rally to defend it, two families separated by culture, united by love, will do all in their power to reclaim the son marching toward them in the ranks of their enemies. ...more"
 }
 ```
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 ## Scraping books with certain conditions
 
@@ -228,6 +246,9 @@ This is the result:
 | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- |
 
 
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+
 ## Automated Scraping with Selenium, Airflow and Docker
 
 In this part, we automate the process of scraping contents from a website with Selenium by using Airflow inside a Docker environment. The URL to crawl this time is [here](https://books.toscrape.com/catalogue/category/books/humor_30/index.html)
@@ -288,11 +309,57 @@ It ran from 16:18 to 16:55 in 19/11/2025, results for each 5-minute interval are
 Data in 16:20 and 16:25 should be similar:
 ![](./images/similar.png)
 
+<p align="right"><a href="#readme-top">back to top</a></p>
 
-## Crawling data from Vietrace365
+## Crawling data from Vietrace365 with Selenium, Airflow and Docker
 
 [Vietrace365](https://vietrace365.vn/races/25-000-km-move-on-run-more#scoreboard) is a racing challenge for SVTech staff, occuring from 15/11/2025 to 28/02/2026. Participants can either run or walk, and the minimum distance each person should achieve is 100km over a period of three months.
 
 Data for the scoreboard in 20/11/2025 can be found in `data/vietrace/scoreboard.csv`. The data is then inserted into a PostgreSQL database:
 ![](./images/vietrace.png)
 
+We can leverage this by automating the process using Airflow and Docker, just like how we scraped the books above. This time, the DAG is constructed with 2 tasks, the first one scrapes Vietrace to get the scoreboard and writes to a CSV file, the other one ingests this file into a PostgreSQL DB using psycopg2. 
+
+Ideally, this DAG should be run once each day to get the scoreboard daily. However, since the purpose of this repository is to demonstrate the automated scraping process, I've modified the cron tab to make it run every 10-minute interval since 00:00 27/11/2025. Modify this as you want! Another thing to consider is that this DAG is written using the new TaskFlow API instead of the traditional way, nevertheless, its functions remained intact:
+
+```python
+@dag(
+    dag_id = "automated_vietrace_scraper",
+    description = "Scraping Vietrace 365 Data (TaskFlow API)",
+    schedule="*/10 * * * *",
+    start_date= pendulum.datetime(2025, 11, 27, tz='Asia/Ho_Chi_Minh'),
+    catchup=False,
+    tags=["web-scraping", "vietrace"]
+)
+```
+
+The tasks will retry 3 times in case they fail, there will be a 30-second delay between each attempt. Because we need to store timestamps within data output paths, in the first task we push this path to XComs, which are a mechanism that let tasks talk to each other, while we pull back that path in the second task.
+
+```python
+# First task
+@task(retries=3, retry_delay=pendulum.duration(seconds=30), do_xcom_push=True)
+def scrape(**context):
+    # Remaining code in task 1...
+    # Push data_output_path to XComs
+    return data_output_path
+
+
+# Second task
+@task(retries=3, retry_delay=pendulum.duration(seconds=30))
+def insert_data(**context):
+    # Read data output path from XComs
+    data_output_path = context["ti"].xcom_pull(task_ids="scrape", key="return_value")
+    # Remaining code in task 2...
+```
+
+CSV files and log files can be found in `logs/vietrace`, `logs/dag_id=automated_vietrace_scraper` and `data/vietrace` folders.
+
+| Data                   | Logs                   | Airflow Logs                   |
+| ---------------------- | ---------------------- | ------------------------------ |
+| ![](./images/csvs.png) | ![](./images/logs.png) | ![](./images/airflow_logs.png) |
+
+After ingesting data into PostgreSQL DB, this is the result:
+
+![](./images/dbdata.png)
+
+This might be the end of this small project. If you're already here, thanks for reading!

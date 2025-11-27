@@ -1,0 +1,176 @@
+[1764222001.228][INFO]: Starting ChromeDriver 142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749}) on port 39373
+[1764222001.229][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1764222001.236][INFO]: ChromeDriver was started successfully on port 39373
+[1764222001.292][INFO]: [edb3c2dc137c85f0bf5a18ab3903861a] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless", "--window-size=1920,1080", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--disable-extensions" ],
+            "binary": "/usr/bin/brave-browser",
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1764222001.295][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1764222001.295][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1764222001.297][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1764222001.297][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1764222001.298][INFO]: Launching chrome: /usr/bin/brave-browser --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=IgnoreDuplicateNavs,Prewarm --disable-gpu --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --headless --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.scoped_dir.907279 --window-size=1920,1080 data:,
+[4926:4944:1127/054001.456334:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[4926:4944:1127/054001.476470:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4944:1127/054001.476637:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[4926:4944:1127/054001.476715:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[4926:4944:1127/054001.538188:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+
+DevTools listening on ws://127.0.0.1:41635/devtools/browser/9cbf2037-a4d7-4119-9b69-bc3ee6922d75
+[4926:4926:1127/054001.576542:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4926:1127/054001.576919:WARNING:device/bluetooth/dbus/bluez_dbus_manager.cc:209] Floss manager service not available, cannot set Floss enable/disable.
+[4926:4944:1127/054001.576928:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4944:1127/054001.576948:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4944:1127/054001.576960:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4944:1127/054001.576969:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4944:1127/054001.576978:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4926:1127/054001.578422:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4926:1127/054001.581585:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4926:1127/054001.581645:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4944:1127/054001.582920:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[4926:4944:1127/054001.583016:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[4926:4944:1127/054001.601553:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4957:4957:1127/054001.662473:WARNING:sandbox/policy/linux/sandbox_linux.cc:404] InitializeSandbox() called with multiple threads in process gpu-process.
+[4926:4926:1127/054001.770765:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_DiscardRing before browser initialization complete; IPH will not be shown.
+[4926:4926:1127/054001.799109:WARNING:dbus/property.cc:94] Failed to connect to PropertiesChangedsignal.
+[4926:4926:1127/054001.799173:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: unknown error type: 
+[4926:4926:1127/054001.799182:WARNING:dbus/property.cc:174] GetAll request failed for: org.freedesktop.UPower.Device
+[4926:4926:1127/054001.799686:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4944:1127/054001.799825:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4926:1127/054001.810399:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4944:1127/054001.810627:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4926:1127/054001.816047:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4944:1127/054001.816228:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[1764222001.819][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[4926:4926:1127/054001.827624:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4944:1127/054001.827860:ERROR:dbus/bus.cc:408] Failed to connect to the bus: Could not parse server address: Unknown address type (examples of valid types are "tcp" and on UNIX "unix")
+[4926:4926:1127/054001.830773:ERROR:dbus/object_proxy.cc:573] Failed to call method: org.freedesktop.DBus.NameHasOwner: object_path= /org/freedesktop/DBus: unknown error type: 
+[4926:4926:1127/054001.830823:WARNING:ui/base/idle/idle_linux.cc:98] None of the known D-Bus ScreenSaver services could be used.
+[1764222001.943][INFO]: [edb3c2dc137c85f0bf5a18ab3903861a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "142.0.7444.176",
+      "chrome": {
+         "chromedriverVersion": "142.0.7444.175 (302067f14a4ea3f42001580e6101fa25ed343445-refs/branch-heads/7444@{#2749})",
+         "userDataDir": "/tmp/.org.chromium.Chromium.scoped_dir.907279"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:41635"
+      },
+      "goog:processID": 4920,
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "~~~": "..."
+   },
+   "sessionId": "edb3c2dc137c85f0bf5a18ab3903861a"
+}
+[1764222001.948][INFO]: [edb3c2dc137c85f0bf5a18ab3903861a] COMMAND Navigate {
+   "url": "https://vietrace365.vn/races/25-000-km-move-on-run-more"
+}
+[1764222001.948][INFO]: Waiting for pending navigations...
+[1764222001.950][INFO]: Done waiting for pending navigations. Status: ok
+[1764222002.582][INFO]: Waiting for pending navigations...
+[1764222002.591][INFO]: Done waiting for pending navigations. Status: ok
+[1764222002.594][INFO]: [edb3c2dc137c85f0bf5a18ab3903861a] RESPONSE Navigate
+[1764222002.604][INFO]: [edb3c2dc137c85f0bf5a18ab3903861a] COMMAND FindElements {
+   "using": "css selector",
+   "value": "div.tabs.race-content-tabs.ng-isolate-scope ul li"
+}
+[1764222002.609][INFO]: Waiting for pending navigations...
+[1764222002.614][INFO]: Done waiting for pending navigations. Status: ok
+[1764222002.690][INFO]: Waiting for pending navigations...
+[4926:4926:1127/054004.361353:INFO:CONSOLE:1804] "Uncaught ReferenceError: ga is not defined", source: https://vietrace365.vn/races/25-000-km-move-on-run-more (1804)
+[4926:4926:1127/054004.878087:INFO:CONSOLE:318] "Unrecognized feature: 'attribution-reporting'.", source: https://connect.facebook.net/en_US/fbevents.js (318)
+[4926:4926:1127/054005.285286:INFO:CONSOLE:125] "Unrecognized feature: 'browsing-topics'.", source: https://connect.facebook.net/signals/config/174670306326589?v=2.9.243&r=stable&domain=vietrace365.vn&hme=fdfab1132115f4ac7aabc9fd7eee63947594f6e6f1735b47a225dd71217525d3&ex_m=89%2C147%2C127%2C18%2C65%2C66%2C120%2C61%2C41%2C121%2C70%2C60%2C134%2C78%2C13%2C88%2C26%2C115%2C108%2C68%2C71%2C114%2C131%2C97%2C136%2C7%2C3%2C4%2C6%2C5%2C2%2C79%2C87%2C137%2C214%2C158%2C55%2C216%2C217%2C48%2C173%2C25%2C67%2C222%2C221%2C161%2C28%2C54%2C8%2C57%2C83%2C84%2C85%2C90%2C111%2C27%2C24%2C113%2C110%2C109%2C128%2C69%2C130%2C129%2C43%2C53%2C105%2C12%2C133%2C38%2C203%2C205%2C168%2C21%2C22%2C23%2C15%2C16%2C37%2C33%2C35%2C34%2C74%2C80%2C82%2C95%2C119%2C122%2C39%2C96%2C19%2C17%2C101%2C62%2C31%2C124%2C123%2C125%2C116%2C20%2C30%2C52%2C94%2C132%2C63%2C14%2C126%2C29%2C183%2C154%2C275%2C201%2C145%2C186%2C179%2C155%2C92%2C112%2C73%2C103%2C47%2C40%2C102%2C107%2C51%2C58%2C42%2C98%2C46%2C49%2C45%2C86%2C135%2C0%2C106%2C11%2C104%2C9%2C1%2C50%2C81%2C56%2C59%2C100%2C77%2C76%2C44%2C117%2C75%2C72%2C64%2C99%2C91%2C36%2C118%2C32%2C93%2C10%2C138 (125)
+[4926:4926:1127/054005.624182:INFO:CONSOLE:168] "[Meta Pixel] - Duplicate Pixel ID: 174670306326589.", source: https://connect.facebook.net/en_US/fbevents.js (168)
+[1764222005.644][INFO]: Done waiting for pending navigations. Status: ok
+[1764222005.644][INFO]: [edb3c2dc137c85f0bf5a18ab3903861a] RESPONSE FindElements [  ]
