@@ -1,3 +1,4 @@
 selenium
 pendulum
 pandas
+oracledb
